@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.button{
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.button:hover{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+
+.button-rev{
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #000000;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+}
+
+.button-rev:hover{
+  border: 1px solid #FFFFFF;
+  background-color: #000000;
+  color: #ffffff;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Github",
+    "icon": "https://a.slack-edge.com/80588/img/plugins/github/service_512.png"
+  },
+  {
+    "id": 2,
+    "name": "Figma",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+  },
+  {
+    "id": 3,
+    "name": "Docker",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+  },
+  {
+    "id": 4,
+    "name": "Terraform",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg"
+  },
+  {
+    "id": 5,
+    "name": "Jenkins",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"
+  },
+  {
+    "id": 6,
+    "name": "Ansible",
+    "icon": "https://www.sorint.com/wp-content/uploads/2021/11/AnsibleLogo_workshop.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Kubernetes",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+  },
+  {
+    "id": 8,
+    "name": "AWS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+  }
+]

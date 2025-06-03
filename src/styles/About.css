@@ -1,0 +1,20 @@
+.about{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap-reverse;
+}
+
+.left-about{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+.about-image{
+  width: 400px;
+}

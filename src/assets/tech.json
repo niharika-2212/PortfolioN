@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "name": "HTML",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+  },
+  {
+    "id":2,
+    "name": "CSS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+  },
+  {
+    "id":3,
+    "name": "Node.js",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "id":4,
+    "name": "React",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+  },
+  {
+    "id":5,
+    "name": "Express.js",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4T1YOdxe--UDu6VlEaqifJFs_dIXyiJUM0A&s"
+  },
+  {
+    "id":6,
+    "name": "MongoDB",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+  },
+  {
+    "id":7,
+    "name": "PostgreSQL",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+  },
+  {
+    "id":8,
+    "name": "Firebase",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+  },
+  {
+    "id":9,
+    "name": "Socket.io",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0AiP90HGmNnhcqhVV5kGj7QMWxfG-j-q1ZA&s"
+  },
+  {
+    "id":10,
+    "name":"Cloudinary",
+    "icon":"https://yt3.googleusercontent.com/wgfGCUUb1Rym8LAwvXuzHqfSpbByVs_11uhzj6Xw8rEFurIWxspBlIqU_2IRswKz947D3-yV=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "id":11,
+    "name":"Vite",
+    "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original.svg"
+  },
+  {
+    "id":12,
+    "name":"Linux",
+    "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+  }
+]
