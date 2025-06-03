@@ -2,7 +2,8 @@ body {
   margin: 0;
   background-color: #000000;
   color: #FFFFFF;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Fira Mono', monospace;
 }
 
 .app{

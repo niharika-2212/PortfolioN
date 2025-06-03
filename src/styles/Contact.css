@@ -74,6 +74,44 @@ textarea:focus {
   transition: all 0.3s ease;
 }
 
-.contact-icons:hover{
+.email a{
+  transition: all 0.3s ease;
+}
+
+.contact-icons:hover, .email a:hover{
   color: #32cdbd;
+}
+
+.contact-form button{
+  font-size: inherit;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  opacity: 0.95;
+  z-index: 1000;
+  animation: fadeinout 3s ease forwards;
+}
+
+.toast.success {
+  background-color: #28a745;
+}
+
+.toast.error {
+  background-color: #dc3545;
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+  10%, 90% { opacity: 0.95; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(20px); }
 }

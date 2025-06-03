@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 function Footer(){
   return(
     <div className="footer">
-      All rights reserved &copy; Niharika Manhar
+      All rights reserved &copy;Niharika Manhar
     </div>
   )
 
