@@ -1,23 +1,26 @@
 [
   {
     "id":1,
-    "title": "sample",
-    "description": "sample",
-    "image": "https://picsum.photos/200/300",
-    "url": "https://example.com"
+    "title": "Real Time Chat App",
+    
+    "description":"A real-time chat app with React and Socket.io, featuring live messaging, user authentication, and smart notifications.",
+    "image": "public/chat-app.png",
+    "url": "https://github.com/niharika-2212/real-time-chat-app"
   },
   {
     "id":2,
     "title": "sample",
     "description": "sample",
-    "image": "https://picsum.photos/200/300",
+    "image": "/chat-app.png",
     "url": "https://example.com"
   },
   {
     "id":3,
     "title": "sample",
     "description": "sample",
-    "image": "https://picsum.photos/200/300",
+    "image": "/chat-app.png",
     "url": "https://example.com"
   }
 ]
+
+

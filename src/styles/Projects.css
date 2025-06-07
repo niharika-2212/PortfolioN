@@ -28,8 +28,8 @@ a{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 300px;
-  max-height: 400px;
+  width: 400px;
+  /* max-height: 400px; */
   padding: 20px;
   border: 1px solid #ffffff;
   cursor: pointer;
