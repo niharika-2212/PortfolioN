@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/Projects.css"
 function Card(props) {
-  console.log(props.image);
   return (
     <div className="project">
       <div className="subheading">{props.title}</div>
