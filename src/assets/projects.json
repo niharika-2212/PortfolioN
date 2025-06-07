@@ -4,21 +4,21 @@
     "title": "Real Time Chat App",
     
     "description":"A real-time chat app with React and Socket.io, featuring live messaging, user authentication, and smart notifications.",
-    "image": "/chat-app.png",
+    "image": "chat-app.png",
     "url": "https://github.com/niharika-2212/real-time-chat-app"
   },
   {
     "id":2,
     "title": "sample",
     "description": "sample",
-    "image": "/chat-app.png",
+    "image": "chat-app.png",
     "url": "https://example.com"
   },
   {
     "id":3,
     "title": "sample",
     "description": "sample",
-    "image": "/chat-app.png",
+    "image": "chat-app.png",
     "url": "https://example.com"
   }
 ]
