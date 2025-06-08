@@ -12,7 +12,7 @@ function Contact() {
       <div className="right-contact">
         <div className="resume">
           <div className="heading">Resume</div>
-          <div className="button-rev">Download Resume</div>
+          <a href="https://drive.google.com/file/d/1NcfO-rlZiNqSSEh7SRQZPPsJ_JD4bI-Y/view?usp=sharing" className="button-rev" target="_blank">Download Resume</a>
         </div>
         <div className="socials">
           <div className="heading">Contact me</div>
