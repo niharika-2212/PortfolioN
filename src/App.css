@@ -1,10 +1,13 @@
-body {
+body , html{
   margin: 0;
   background-color: #000000;
   color: #FFFFFF;
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: 'Fira Mono', monospace;
+  font-size: 16px;
+  height: 100vh;
 }
+
 
 .app{
   display: flex;
@@ -14,6 +17,8 @@ body {
 
 .button{
   border: 1px solid #FFFFFF;
+  background-color: #000000;
+  color: #ffffff;
   padding: 10px;
   cursor: pointer;
   display: flex;

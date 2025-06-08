@@ -1,4 +1,4 @@
-.home{
+.home {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -8,26 +8,39 @@
   padding: 2rem;
 }
 
-.heading{
+.heading {
   font-size: 32px;
 }
 
-.subheading{
+.subheading {
   font-size: 20px;
   color: #32cdbd;
 }
+.text{
+  text-align: center;
+}
 
-.buttons{
+.buttons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
+
 @keyframes blink {
-  50% { border-color: transparent }
+  50% {
+    border-color: transparent
+  }
 }
 
 .typewriter {
@@ -36,4 +49,26 @@
   overflow: hidden;
   border-right: 2px solid;
   animation: typing 2s steps(30) 1, blink 0.7s step-end infinite;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  .subheading {
+    font-size: 18px;
+  }
+  
+}
+
+@media (max-width: 600px){
+  .heading {
+    font-size: 22px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+  
 }

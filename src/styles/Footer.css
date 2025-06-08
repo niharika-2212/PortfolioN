@@ -6,3 +6,9 @@
   align-items: center;
   color: #A0A0A0;
 }
+
+@media (max-width: 600px){
+  .footer{
+    font-size: 14px;
+  }
+}

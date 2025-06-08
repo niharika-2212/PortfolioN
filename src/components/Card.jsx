@@ -4,7 +4,7 @@ function Card(props) {
   return (
     <div className="project">
       <div className="subheading">{props.title}</div>
-      <img src={props.image} alt="project 1" />
+      <img src={props.image} alt="project 1" className='project-image'/>
       <div className="project-description">{props.description}</div>
       <a
         href={props.githubLink}

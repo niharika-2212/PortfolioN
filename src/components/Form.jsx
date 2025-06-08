@@ -70,7 +70,7 @@ function Form() {
           ></textarea>
         </div>
 
-        <button type="submit" className="button-rev">Send Message</button>
+        <button type="submit" className="button-rev send">Send Message</button>
       </form>
 
       {/* Toast notification */}
