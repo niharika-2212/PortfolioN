@@ -1,51 +1,37 @@
-import React, { useState, useRef } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import "../styles/Contact.css";
 
 function Form() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [status, setStatus] = useState(""); // 'success', 'error', or ''
-  const formRef = useRef(null);
 
+  // Update form data
   const handleChange = e => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-  }; // update information on change
+  };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  // Handle form submit
+  const handleSubmit = async e => {
+    e.preventDefault();
     setStatus(""); // reset status
 
-    const myForm = event.target;
-    const formData = new FormData(myForm);
+    const response = await fetch("https://formspree.io/f/meokqdnb", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
 
-    try {
-      await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      });
-
+    if (response.ok) {
       setStatus("success");
-      setFormData({ name: "", email: "", message: "" });
-      myForm.reset(); // optional native reset
-    } catch (error) {
+      setFormData({ name: "", email: "", message: "" }); // clear form
+    } else {
       setStatus("error");
     }
   };
 
   return (
     <>
-      <form
-        className="contact-form"
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        ref={formRef}
-        onSubmit={handleSubmit}
-      >
-        {/* Required for Netlify to recognize the form */}
-        <input type="hidden" name="form-name" value="contact" />
-
+      <form className="contact-form" onClick={handleSubmit}>
         <div className="heading">Drop Me a Message</div>
 
         <div className="form-group">
@@ -87,7 +73,7 @@ function Form() {
         <button type="submit" className="button-rev send">Send Message</button>
       </form>
 
-      {/* Toast notifications */}
+      {/* Toast notification */}
       {status === "success" && (
         <div className="toast success">Thanks for your message! I'll get back soon.</div>
       )}
