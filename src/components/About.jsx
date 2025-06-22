@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import image from '../assets/about-image.png'; // Replace with your image path
+import image from '../assets/about-image.webp'; // Replace with your image path
 function About() {
   return (
     <div className='about'>

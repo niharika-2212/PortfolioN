@@ -31,7 +31,7 @@ function Form() {
 
   return (
     <>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form className="contact-form" netlify>
         <div className="heading">Drop Me a Message</div>
 
         <div className="form-group">

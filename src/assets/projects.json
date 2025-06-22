@@ -4,21 +4,21 @@
     "title": "Real Time Chat App",
     
     "description":"A real-time chat app with React and Socket.io, featuring live messaging, user authentication, and smart notifications.",
-    "image": "chat-app.png",
+    "image": "chat-app.webp",
     "url": "https://github.com/niharika-2212/real-time-chat-app"
   },
   {
     "id":2,
     "title": "Real-time Collaborative Editor",
     "description": "A real-time web-based editor for creating, editing, and sharing documents with collaborative multi-user support.",
-    "image": "realtime-editor.png",
+    "image": "realtime-editor.webp",
     "url": "https://github.com/niharika-2212/Real-time-Collaborative-Document-Editor"
   },
   {
     "id":3,
     "title": "Weather Forecast Website",
     "description": "A modern fullstack weather app delivering real-time forecasts and detailed weather insights using WeatherAPI.com.",
-    "image": "weather.png",
+    "image": "weather.webp",
     "url": "https://github.com/niharika-2212/Weather-Forecast-website"
   }
 ]

@@ -19,6 +19,7 @@
   width: 400px;
 }
 
+
 @media (max-width: 600px) {
   .about-image {
     width: 250px;
