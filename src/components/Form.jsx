@@ -11,25 +11,23 @@ function Form() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }; // update information on change
 
-  const handleSubmit = async e => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
     setStatus(""); // reset status
 
-    const form = formRef.current;
-    const data = new FormData(form);
+    const myForm = event.target;
+    const formData = new FormData(myForm);
 
     try {
-      const response = await axios.post("/", data, {
-        headers: { "Content-Type": "multipart/form-data" },
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
       });
 
-      if (response.status === 200) {
-        setStatus("success");
-        setFormData({ name: "", email: "", message: "" });
-        form.reset(); // native reset
-      } else {
-        throw new Error("Failed to submit");
-      }
+      setStatus("success");
+      setFormData({ name: "", email: "", message: "" });
+      myForm.reset(); // optional native reset
     } catch (error) {
       setStatus("error");
     }
