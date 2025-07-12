@@ -9,4 +9,4 @@ Welcome to my personal developer portfolio built with **React** and **CSS**. Thi
 - [Google Fonts](https://fonts.google.com/) – Fira Mono (for typewriter feel)
 
 ## Live Demo
-You can view the website [here]([https://niharika-2212.github.io/PortfolioN/](https://niharikamanharportfolio.netlify.app/))
+You can view the website [here]([https://niharika-2212.github.io/PortfolioN/](https://niharikamanharportfolio.netlify.app/)
