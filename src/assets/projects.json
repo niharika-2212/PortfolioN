@@ -16,10 +16,10 @@
   },
   {
     "id":3,
-    "title": "Weather Forecast Website",
-    "description": "A modern fullstack weather app delivering real-time forecasts and detailed weather insights using WeatherAPI.com.",
-    "image": "weather.webp",
-    "url": "https://github.com/niharika-2212/Weather-Forecast-website"
+    "title": "Full-stack e-commerce website",
+    "description": "A full-stack clothing website with secure Firebase authentication, Razorpay payments, and a responsive React UI backed by MongoDB.",
+    "image": "ecom-website.webp",
+    "url": "https://github.com/niharika-2212/ClothingStore-website"
   }
 ]
 
